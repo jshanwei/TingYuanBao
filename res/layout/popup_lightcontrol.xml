@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    
+ <Button
+        android:id="@+id/light_on"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_selector"
+        android:singleLine="true"
+        android:text="照明灯开"
+        android:textColor="@color/yellow"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/light_off"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_selector"
+        android:text="照明灯关"
+        android:textColor="@color/yellow"
+        android:textSize="18dp" />
+
+</LinearLayout>

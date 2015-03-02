@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/cache_color_hint"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5.0dip" >
+
+    <FrameLayout
+        android:id="@id/leftpic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/camerlist_nosnapshot"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/leftpic"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/cameraDevName_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1.0"
+                android:text="@string/location_pic_video_item_name"
+                android:textColor="@color/color_huise" />
+
+            <TextView
+                android:id="@id/cameraDevName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1.0"
+                android:text="TextView"
+                android:textColor="@color/color_huise" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@id/textPPPPStatus_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1.0"
+                android:text="@string/device_status_name"
+                android:textColor="@color/blanchedalmond" />
+
+            <TextView
+                android:id="@id/textPPPPStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1.0"
+                android:text="TextView"
+                android:textColor="@color/color_huise" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@id/texttype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_weight="1.0"
+                android:text="TextView"
+                android:textColor="@color/color_huise" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/cameralist_settting_button" />
+
+</RelativeLayout>

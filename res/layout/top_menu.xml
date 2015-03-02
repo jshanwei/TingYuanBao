@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/menu_top_height"
+    android:background="@drawable/top_bg_img"
+    android:gravity="center_vertical" >
+
+    <Button
+        android:id="@id/top_back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.1"
+        android:background="@color/tm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/login_edt_text"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@id/top_img_back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.1"
+        android:background="@color/tm"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/top_1"
+        android:layout_width="2.0dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/top_x"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@id/txtname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.54"
+        android:background="#00ffffff"
+        android:gravity="center"
+        android:maxLines="1"
+        android:scaleType="fitCenter"
+        android:textColor="#ffffffff"
+        android:textScaleX="1.1"
+        android:textSize="@dimen/experience_text_size" />
+
+    <TextView
+        android:id="@id/top_2"
+        android:layout_width="2.0dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/top_x"
+        android:visibility="invisible" />
+
+    <Button
+       
+        android:id="@id/top_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.1"
+        android:background="@color/tm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/login_edt_text"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@id/top_img_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.1"
+        android:background="@color/tm"
+        android:visibility="gone" />
+
+</LinearLayout>

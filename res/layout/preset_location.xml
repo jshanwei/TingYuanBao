@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/toPreset1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_selector"
+        android:singleLine="true"
+        android:text="转到预置点1 "
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/setPreset1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="设为预置点1"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />   
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/toPreset2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_selector"
+        android:singleLine="true"
+        android:text="转到预置点2 "
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/setPreset2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="设为预置点2 "
+        android:textColor="#ffffff"
+        android:textSize="15dp" />   
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/toPreset3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_selector"
+        android:singleLine="true"
+        android:text="转到预置点3 "
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/setPreset3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="设为预置点3 "
+        android:textColor="#ffffff"
+        android:textSize="15dp" />   
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/toPreset4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_selector"
+        android:singleLine="true"
+        android:text="转到预置点4 "
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_marginLeft="10dp"
+        android:id="@+id/setPreset4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="设为预置点4"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />   
+    </LinearLayout>
+    
+    
+    
+
+</LinearLayout>

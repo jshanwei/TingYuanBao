@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#00000000"
+    android:orientation="vertical"
+    android:padding="10.0dip" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/pre1"
+                android:layout_width="60.0dip"
+                android:layout_height="30.0dip"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/button_selector"
+                android:singleLine="true"
+                android:text="1"
+                android:textColor="@color/yellow"
+                android:textSize="18.0dip" />
+
+            <Button
+                android:id="@+id/pre2"
+                android:layout_width="60.0dip"
+                android:layout_height="30.0dip"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/button_selector"
+                android:singleLine="true"
+                android:text="2"
+                android:textColor="@color/yellow"
+                android:textSize="18.0dip" />
+
+            <Button
+                android:id="@+id/pre3"
+                android:layout_width="60.0dip"
+                android:layout_height="30.0dip"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/button_selector"
+                android:singleLine="true"
+                android:text="3"
+                android:textColor="@color/yellow"
+                android:textSize="18.0dip" />
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/pre4"
+                android:layout_width="60.0dip"
+                android:layout_height="30.0dip"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/button_selector"
+                android:singleLine="true"
+                android:text="4"
+                android:textColor="@color/yellow"
+                android:textSize="18.0dip" />
+
+            <Button
+                android:id="@+id/pre5"
+                android:layout_width="60.0dip"
+                android:layout_height="30.0dip"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/button_selector"
+                android:singleLine="true"
+                android:text="5"
+                android:textColor="@color/yellow"
+                android:textSize="18.0dip" />
+
+            <Button
+                android:id="@+id/pre6"
+                android:layout_width="60.0dip"
+                android:layout_height="30.0dip"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/button_selector"
+                android:singleLine="true"
+                android:text="6"
+                android:textColor="@color/yellow"
+                android:textSize="18.0dip" />
+
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/pre7"
+                android:layout_width="60.0dip"
+                android:layout_height="30.0dip"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/button_selector"
+                android:singleLine="true"
+                android:text="7"
+                android:textColor="@color/yellow"
+                android:textSize="18.0dip" />
+
+            <Button
+                android:id="@+id/pre8"
+                android:layout_width="60.0dip"
+                android:layout_height="30.0dip"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/button_selector"
+                android:singleLine="true"
+                android:text="8"
+                android:textColor="@color/yellow"
+                android:textSize="18.0dip" />
+
+            <Button
+                android:id="@+id/pre9"
+                android:layout_width="60.0dip"
+                android:layout_height="30.0dip"
+                android:layout_margin="5.0dip"
+                android:background="@drawable/button_selector"
+                android:singleLine="true"
+                android:text="9"
+                android:textColor="@color/yellow"
+                android:textSize="18.0dip" />
+
+            
+        </TableRow>
+
+        
+    </TableLayout>
+
+</LinearLayout>

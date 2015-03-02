@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <RelativeLayout
+        android:id="@id/top_relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/app_title_background" >
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:shadowColor="@color/color_shadow"
+            android:shadowDx="1.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="1.0"
+            android:text="图像"
+            android:textColor="@color/color_white"
+            android:textSize="18.0sp"
+            android:textStyle="bold" />
+
+
+
+
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/image_swithcer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        />
+    
+    
+	<TextView
+	    android:id="@+id/picname"
+	    android:textSize="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="左右滚动，点击图片放大"
+        android:gravity="center_horizontal" />
+	
+	<HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <com.example.hsv1.HSVLayout
+            android:clickable="true"
+            android:id="@+id/movieLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+	
+</LinearLayout>

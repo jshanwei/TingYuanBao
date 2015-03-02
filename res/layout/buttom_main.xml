@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/new_all_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    
+
+    <LinearLayout
+        android:id="@id/bottom_tab"
+        android:layout_width="fill_parent"
+        android:layout_height="55.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/activity_main_buttom_bg"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_buttom_singleline" />
+
+        <LinearLayout
+            android:id="@id/bottom_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@id/main_layout_vidicon"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5.0dip" >
+
+                <ImageView
+                    android:id="@id/main_img_vidicon"
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:src="@drawable/buttom_camera_press" />
+
+                <TextView
+                    android:id="@id/main_tv_vidicon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/camera_main"
+                    android:textColor="@color/color_main_buttom_yellow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/main_layout_pic"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5.0dip" >
+
+                <ImageView
+                    android:id="@id/main_img_picture"
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:src="@drawable/buttom_picture" />
+
+                <TextView
+                    android:id="@id/main_tv_picture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/video_pic"
+                    android:textColor="@color/color_main_buttom_textcolor" />
+            </LinearLayout>
+
+           
+
+            <LinearLayout
+                android:id="@id/main_layout_vid"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5.0dip" >
+
+                <ImageView
+                    android:id="@id/main_img_vid"
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:src="@drawable/buttom_message" />
+
+                <TextView
+                    android:id="@id/main_tv_vid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_alarm"
+                    android:textColor="@color/color_main_buttom_textcolor" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/main_layout_about"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5.0dip" >
+
+                <ImageView
+                    android:id="@id/main_img_about"
+                    android:layout_width="15.0dip"
+                    android:layout_height="15.0dip"
+                    android:layout_marginBottom="2.0dip"
+                    android:layout_marginTop="2.0dip"
+                    android:src="@drawable/buttom_more" />
+
+                <TextView
+                    android:id="@id/main_tv_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/more_activity_title"
+                    android:textColor="@color/color_main_buttom_textcolor" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottom_tab"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+       <FrameLayout
+        android:id="@+id/contentfragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+ >
+    </FrameLayout>
+        
+        </LinearLayout>
+
+</RelativeLayout>

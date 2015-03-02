@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/loadpreset"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:singleLine="true"
+        android:text="调用预置点"
+        android:textColor="@color/yellow"
+        android:textSize="15dp"></Button>
+    <Button
+        android:id="@+id/preset"
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:singleLine="true"
+        android:text="设置预置点"
+        android:textColor="@color/yellow"
+        android:layout_margin="5dp"
+        android:textSize="15dp"></Button>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+      <LinearLayout
+        android:id="@+id/presetNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+        <include layout="@layout/popuppre" />  
+        </LinearLayout>
+        
+    </LinearLayout>
+        
+    
+    
+    
+
+</LinearLayout>

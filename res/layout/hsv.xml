@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xmz="http://xmz.com"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <com.example.hsv.ImageViewBorder
+        android:id="@+id/movie_image"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        xmz:BorderColor="GRAY" />
+
+</RelativeLayout>

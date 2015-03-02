@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+   <TextView 
+       	android:id="@+id/waterTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择浇水时间"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:max="20"
+        android:progress="0"
+        android:secondaryProgress="1"
+        android:progressDrawable="@drawable/player_setting_bright_progressbar"
+        android:thumb="@drawable/player_settings_bright_thumb"
+         />
+    
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/waterconfirm"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_selector"
+        android:singleLine="true"
+        android:text="确定"
+        android:textColor="@color/yellow"
+        android:textSize="18dp" />
+
+</LinearLayout>

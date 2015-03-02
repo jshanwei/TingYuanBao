@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="2.0dip"
+    android:background="@color/color_black"
+    android:paddingTop="2.0dip" >
+
+    <RelativeLayout
+        android:id="@id/layout_left"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10.0dip"
+        android:gravity="center" >
+
+
+        <TextView
+            android:id="@id/cameraid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cameraname"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="TextView"
+            android:textColor="@color/color_black"
+            android:textSize="11.0sp"
+             />
+
+        <FrameLayout
+            android:id="@id/frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cameraid"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2.0dip"
+            android:focusable="false"
+            android:gravity="center_horizontal" >
+
+            
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/camera_info_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6.0dip"
+        android:layout_toRightOf="@id/layout_left"
+        android:focusable="false"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/camera_info_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/color_white"
+            android:textSize="20.0sp" />
+
+        <TextView
+            android:id="@id/camera_info_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:text="TextView"
+            android:textColor="@color/whitesmoke"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:id="@id/camera_info_uid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:text="uid"
+            android:textColor="@color/video_camera_remark"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/imageView1"
+        android:layout_width="45.0dip"
+        android:layout_height="45.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.0dip"
+            android:background="@drawable/go_next"
+            android:gravity="center"
+            android:padding="3.0dip"
+            android:scaleType="center" />
+    </LinearLayout>
+
+    
+
+</RelativeLayout>
